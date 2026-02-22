@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskPilot</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-    
+    <div class="heading">
+        <h1>TaskPilot</h1>
+    </div>
+    <div class="addTasks">
+        <div class="input">
+            <input type="text" placeholder="Enter your task" />
+            <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="filters">
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="pending">Pending</option>
+            </select>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>

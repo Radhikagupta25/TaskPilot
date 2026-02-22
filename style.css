@@ -1,0 +1,123 @@
+body {
+    background-color: #ffa8a9;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    color: #A21B46;
+    font-size: 7vh;
+}
+
+.addTasks {
+    width: 53vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.addTasks .input {
+    height: 7vh;
+    width: 37vw;
+    background-color: #A21B46;
+    display: flex;
+    align-items: center; 
+}
+
+.addTasks input {
+    flex: 1;           
+    min-width: 0;
+    height: 100%;
+    font-size: 2.5vh;
+    border: none;
+    background-color: #A21B46;
+    color: #ffa8a9;
+    padding-left: 10px;
+}
+
+.addTasks input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.addTasks button {
+    width: 45px;       
+    height: 100%;
+    border: none;
+    background-color: #A21B46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addTasks button i {
+    font-size: 18px;
+    color: #ffa8a9;
+}
+
+.addTasks select {
+    height: 7vh;
+    width: 11vw;
+    font-size: 2.5vh;
+    border-radius: 0;
+    background-color: #A21B46;
+    border: 2px solid #62090B;
+    color: #ffa8a9;
+}
+
+.filters option {
+    background-color: #A21B46;
+    color: #ffa8a9;
+}
+
+@media (max-width: 1024px) {
+
+    .addTasks {
+        width: 80vw;
+    }
+
+    .addTasks .input {
+        width: 55vw;
+    }
+
+    .addTasks select {
+        width: 20vw;
+    }
+
+    .heading h1 {
+        font-size: 6vh;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .addTasks {
+        width: 95vw;
+        gap: 10px;
+    }
+
+    .addTasks .input {
+        width: 65vw;
+    }
+
+    .addTasks select {
+        width: 25vw;
+    }
+
+    .heading h1 {
+        font-size: 6vw;
+    }
+}
