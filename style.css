@@ -83,6 +83,24 @@ body {
     color: #ffa8a9;
 }
 
+.hero{
+    margin-top: 5vh;
+    background-color: white;
+    width: 48.5vw;
+    height: 50vh;
+    border-radius: 7px;
+    background-color: #f4c1c2;
+    border: 4px solid #62090B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero p{
+    font-size: 3vh;
+    color: #62090B;
+}
+
 @media (max-width: 1024px) {
 
     .addTasks {
