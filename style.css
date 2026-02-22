@@ -118,6 +118,11 @@ body {
     .heading h1 {
         font-size: 6vh;
     }
+
+    .hero{
+        width: 80vw;
+        height: 63vh;
+    }
 }
 
 @media (max-width: 600px) {
@@ -136,6 +141,11 @@ body {
     }
 
     .heading h1 {
-        font-size: 6vw;
+        font-size: 15vw;
+    }
+
+    .hero{
+        width: 95vw;
+        height: 62vh;
     }
 }
